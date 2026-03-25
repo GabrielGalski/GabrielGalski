@@ -2,7 +2,7 @@
 
 <br/>
 
-## 🕹️ Inventário
+## 
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-4DACF0?style=flat-square&logo=python&logoColor=0D1117" alt="Python"/>
@@ -21,11 +21,12 @@
 
 <br/>
 
-## ⚔️ Stats
+## 
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=GabrielGalski&layout=compact&theme=transparent&hide_border=true&title_color=4DACF0&text_color=A0C4E8&bg_color=0D1117&langs_count=8&size_weight=0.5&count_weight=0.5" alt="Top Languages" width="450"/>
+[<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=GabrielGalski&layout=compact&theme=transparent&hide_border=true&title_color=4DACF0&text_color=A0C4E8&bg_color=0D1117&langs_count=8&size_weight=0.5&count_weight=0.5" alt="Top Languages" width="450"/>](https://github-readme-stats.vercel.app/api/top-langs/?username=GabrielGalski&layout=compact&theme=transparent&hide_border=true&title_color=4DACF0&text_color=A0C4E8&bg_color=0D1117&langs_count=8&size_weight=0.5&count_weight=0.5&hide=makefile
+)
 
 </div>
 
