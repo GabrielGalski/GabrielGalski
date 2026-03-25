@@ -1,0 +1,92 @@
+<svg width="800" height="160" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&amp;display=swap');
+
+      .title { font-family: 'Press Start 2P', monospace; fill: #4DACF0; font-size: 26px; }
+      .subtitle { font-family: 'Press Start 2P', monospace; fill: #A0C4E8; font-size: 11px; }
+      .desc { font-family: 'Press Start 2P', monospace; fill: #6B8DAE; font-size: 9px; }
+      .pixel { opacity: 0; animation: fadePixel 3s ease-in-out infinite; }
+      .pixel:nth-child(1) { animation-delay: 0s; }
+      .pixel:nth-child(2) { animation-delay: 0.3s; }
+      .pixel:nth-child(3) { animation-delay: 0.6s; }
+      .pixel:nth-child(4) { animation-delay: 0.9s; }
+      .pixel:nth-child(5) { animation-delay: 1.2s; }
+      .pixel:nth-child(6) { animation-delay: 1.5s; }
+      .pixel:nth-child(7) { animation-delay: 1.8s; }
+      .pixel:nth-child(8) { animation-delay: 2.1s; }
+      .pixel:nth-child(9) { animation-delay: 0.15s; }
+      .pixel:nth-child(10) { animation-delay: 0.45s; }
+      .pixel:nth-child(11) { animation-delay: 0.75s; }
+      .pixel:nth-child(12) { animation-delay: 1.05s; }
+
+      @keyframes fadePixel {
+        0%, 100% { opacity: 0.1; }
+        50% { opacity: 0.6; }
+      }
+
+      .scanline {
+        animation: scan 4s linear infinite;
+      }
+      @keyframes scan {
+        0% { transform: translateY(-160px); }
+        100% { transform: translateY(160px); }
+      }
+
+      .cursor-blink {
+        animation: blink 1s step-end infinite;
+      }
+      @keyframes blink {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0; }
+      }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="160" rx="8" fill="#0D1117"/>
+
+  <!-- Border pixels -->
+  <rect x="0" y="0" width="800" height="4" fill="#4DACF0" opacity="0.8"/>
+  <rect x="0" y="156" width="800" height="4" fill="#4DACF0" opacity="0.8"/>
+  <rect x="0" y="0" width="4" height="160" fill="#4DACF0" opacity="0.8"/>
+  <rect x="796" y="0" width="4" height="160" fill="#4DACF0" opacity="0.8"/>
+
+  <!-- Corner pixels -->
+  <rect x="4" y="4" width="8" height="8" fill="#4DACF0" opacity="0.5"/>
+  <rect x="788" y="4" width="8" height="8" fill="#4DACF0" opacity="0.5"/>
+  <rect x="4" y="148" width="8" height="8" fill="#4DACF0" opacity="0.5"/>
+  <rect x="788" y="148" width="8" height="8" fill="#4DACF0" opacity="0.5"/>
+
+  <!-- Floating pixels decoration -->
+  <g>
+    <rect class="pixel" x="30" y="30" width="6" height="6" fill="#4DACF0"/>
+    <rect class="pixel" x="120" y="130" width="6" height="6" fill="#4DACF0"/>
+    <rect class="pixel" x="680" y="40" width="6" height="6" fill="#4DACF0"/>
+    <rect class="pixel" x="750" y="120" width="6" height="6" fill="#4DACF0"/>
+    <rect class="pixel" x="60" y="100" width="4" height="4" fill="#A0C4E8"/>
+    <rect class="pixel" x="200" y="140" width="4" height="4" fill="#A0C4E8"/>
+    <rect class="pixel" x="600" y="25" width="4" height="4" fill="#A0C4E8"/>
+    <rect class="pixel" x="720" y="90" width="4" height="4" fill="#A0C4E8"/>
+    <rect class="pixel" x="500" y="135" width="5" height="5" fill="#4DACF0"/>
+    <rect class="pixel" x="350" y="20" width="5" height="5" fill="#4DACF0"/>
+    <rect class="pixel" x="150" y="50" width="3" height="3" fill="#6B8DAE"/>
+    <rect class="pixel" x="550" y="110" width="3" height="3" fill="#6B8DAE"/>
+  </g>
+
+  <!-- Scanline effect -->
+  <rect class="scanline" x="0" y="0" width="800" height="6" fill="#4DACF0" opacity="0.03"/>
+
+  <!-- Text content (centered) -->
+  <text class="title" x="400" y="58" text-anchor="middle">
+    Gabriel Galski Machado
+  </text>
+
+  <text class="subtitle" x="400" y="92" text-anchor="middle">
+    &gt; Ci&#234;ncia da Computa&#231;&#227;o // UFPEL
+  </text>
+
+  <text class="desc" x="400" y="125" text-anchor="middle">
+    Arquitetura de Sistemas &amp; Bancos de Dados Relacionais
+  </text>
+</svg>

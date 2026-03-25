@@ -1,0 +1,45 @@
+<svg width="800" height="80" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&amp;display=swap');
+
+      .code {
+        font-family: 'Press Start 2P', monospace;
+        font-size: 14px;
+        fill: #4DACF0;
+        animation: blink 1.2s step-end infinite;
+      }
+
+      .line-pixels {
+        animation: shimmer 2s ease-in-out infinite;
+      }
+
+      @keyframes blink {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0; }
+      }
+
+      @keyframes shimmer {
+        0%, 100% { opacity: 0.3; }
+        50% { opacity: 0.7; }
+      }
+    </style>
+  </defs>
+
+  <rect width="800" height="80" fill="#0D1117" rx="8"/>
+
+  <!-- Decorative pixel line -->
+  <g class="line-pixels">
+    <rect x="20" y="38" width="200" height="4" fill="#4DACF0" opacity="0.15"/>
+    <rect x="580" y="38" width="200" height="4" fill="#4DACF0" opacity="0.15"/>
+  </g>
+
+  <!-- Pixel dots -->
+  <rect x="230" y="36" width="8" height="8" fill="#4DACF0" opacity="0.3"/>
+  <rect x="250" y="36" width="8" height="8" fill="#4DACF0" opacity="0.2"/>
+  <rect x="542" y="36" width="8" height="8" fill="#4DACF0" opacity="0.2"/>
+  <rect x="562" y="36" width="8" height="8" fill="#4DACF0" opacity="0.3"/>
+
+  <!-- return 0; text -->
+  <text class="code" x="400" y="46" text-anchor="middle">return 0;</text>
+</svg>
