@@ -26,9 +26,6 @@
 <div align="center">
 
 
-
-</div>
-
 <br/>
 
 <p align="center">
