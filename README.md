@@ -7,7 +7,6 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Python-4DACF0?style=flat-square&logo=python&logoColor=0D1117" alt="Python"/>
   <img src="https://img.shields.io/badge/Java-4DACF0?style=flat-square&logo=openjdk&logoColor=0D1117" alt="Java"/>
-  <img src="https://img.shields.io/badge/C++-4DACF0?style=flat-square&logo=cplusplus&logoColor=0D1117" alt="C++"/>
   <img src="https://img.shields.io/badge/Lua-4DACF0?style=flat-square&logo=lua&logoColor=0D1117" alt="Lua"/>
   <img src="https://img.shields.io/badge/JavaScript-4DACF0?style=flat-square&logo=javascript&logoColor=0D1117" alt="JavaScript"/>
 </p>
